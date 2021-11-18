@@ -1,7 +1,23 @@
+import bcrypt from 'bcryptjs';
+
 const data = {
+    users: [
+        {
+          name: 'Edward',
+          email: 'admin@example.com',
+          password: bcrypt.hashSync('1234', 8),
+          isAdmin: true,
+        },
+        {
+          name: 'Jerome',
+          email: 'user@example.com',
+          password: bcrypt.hashSync('1234', 8),
+          isAdmin: false,
+        },
+      ],
+
     products: [
         {
-            _id:'1',
             name: 'Product 1',
             category: 'Pet Product',
             image: '/images/LuckysPetshopLogo.jpg',
@@ -13,7 +29,6 @@ const data = {
             description: 'Pet Essentials',
         },
         {
-            _id:'2',
             name: 'Product 2',
             category: 'Pet Product',
             image: '/images/LuckysPetshopLogo.jpg',
@@ -25,7 +40,6 @@ const data = {
             description: 'Pet Essentials',
         },
         {
-            _id:'3',
             name: 'Product 3',
             category: 'Pet Product',
             image: '/images/LuckysPetshopLogo.jpg',
@@ -37,7 +51,6 @@ const data = {
             description: 'Pet Essentials',
         },
         {
-            _id:'4',
             name: 'Product 4',
             category: 'Pet Product',
             image: '/images/LuckysPetshopLogo.jpg',
@@ -49,7 +62,6 @@ const data = {
             description: 'Pet Essentials',
         },
         {
-            _id:'5',
             name: 'Product 5',
             category: 'Pet Product',
             image: '/images/LuckysPetshopLogo.jpg',
@@ -61,7 +73,6 @@ const data = {
             description: 'Pet Essentials',
         },
         {
-            _id:'6',
             name: 'Product 6',
             category: 'Pet Product',
             image: '/images/LuckysPetshopLogo.jpg',
