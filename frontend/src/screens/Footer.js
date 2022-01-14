@@ -13,7 +13,8 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h5>Lucky's Petshop</h5>
-            <p> 11-C Narra St, Project 3 Quezon City, Philippines</p>
+            <a href='https://goo.gl/maps/KiKoEo5wtHLdEUh88'>11-C Narra St, Project 3 Quezon City, Philippines</a>
+
           </div>
           <div className='footer-link-items'>
             <h5>Useful Links</h5>
@@ -29,17 +30,17 @@ function Footer() {
         </div>
         
           <div className='footer-link-items'>
-            <h5>Social Media</h5>
+            <h5>Contact Us</h5>
             <Link to='/'>Facebook</Link>
-            <Link to='/'>Email</Link>
+            <a href="mailto:luckypetshop1230@gmail.com">Email Us</a>
           </div>
 
+     
+
       </div>
-      <br></br>
-      <br></br>
-      <br></br>
-      <section className='social-media'>
-        <div className='social-media-wrap'>
+
+
+      <div className='social-media-wrap'>
           <small className='website-rights'>Lucky's Petshop © 2020. All rights reserved.</small>
           <div className='social-icons'>
   
@@ -48,7 +49,7 @@ function Footer() {
 
           </div>
         </div>
-      </section>
+
     </div>
   );
 }

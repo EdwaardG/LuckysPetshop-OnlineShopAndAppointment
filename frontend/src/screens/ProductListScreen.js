@@ -54,6 +54,7 @@ export default function ProductListScreen(props) {
     userInfo._id,
   ]);
 
+
   const deleteHandler = (product) => {
     if (window.confirm('Are you sure to delete?')) {
       dispatch(deleteProduct(product._id));

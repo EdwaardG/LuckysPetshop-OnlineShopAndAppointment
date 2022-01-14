@@ -32,7 +32,7 @@
 }
 
 .footer-subscription > p {
-  font-family: 'Poppins', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .footer-subscription-heading {
@@ -85,12 +85,12 @@
 }
 
 .footer-link-items > h5 {
-  color: #fff;
+  color: #72bcd4;
 }
 
 .footer-link-items > p {
   color: #fff;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.2rem;
 }
 
 .footer-link-items a {
