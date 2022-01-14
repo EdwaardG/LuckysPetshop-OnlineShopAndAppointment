@@ -26,6 +26,7 @@ import SearchScreen from './screens/SearchScreen';
 import { listProductCategories } from './actions/productActions';
 import LoadingBox from './components/LoadingBox';
 import MessageBox from './components/MessageBox';
+import Footer from './screens/Footer';
 
 function App() {
 
@@ -234,10 +235,18 @@ function App() {
           ></SellerRoute>
           
     <Route path="/" component={HomeScreen} exact></Route>
+
+
+    <Footer/>
+
+
     </main>
-    <footer className="row center">
+
+    {/* <footer className="row center">
+
         All Rights Reserved
-    </footer>
+    </footer> */}
+ 
 </div>
 </BrowserRouter>
   );
