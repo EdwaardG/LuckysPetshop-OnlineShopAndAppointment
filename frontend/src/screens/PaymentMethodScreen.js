@@ -47,7 +47,7 @@ export default function PaymentMethodScreen(props){
                      
                    onChange={(e) => setPaymentMethod(e.target.value)}
                     ></input>
-                    <label htmlFor="stripe">Stripe</label>
+                    <label htmlFor="stripe">Cash On Delivery</label>
                     </div>
             </div>
             <div>

@@ -31,7 +31,7 @@ function Footer() {
         
           <div className='footer-link-items'>
             <h5>Contact Us</h5>
-            <Link to='/'>Facebook</Link>
+            <a href="https://www.facebook.com/luckypetshop1230">Facebook</a>
             <a href="mailto:luckypetshop1230@gmail.com">Email Us</a>
           </div>
 
