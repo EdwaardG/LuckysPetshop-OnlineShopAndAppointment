@@ -83,6 +83,17 @@ const data = {
             numReviews: 10,
             description: 'Pet Essentials',
         },
+        {
+            name: 'Vitality ValueMeal Puppy',
+            category: 'Dog Food',
+            image: '/images/Vitality ValueMeal Puppy Dog Food',
+            price: 169,
+            brand: 'Vitality ValueMeal',
+            countInStock: 20,
+            rating: 0,
+            numReviews: 0,
+            description: 'High quality Australian lamb & beef dog food for puppies’ dogs that does not break the bank',
+        },
     ],
 };
 export default data;
