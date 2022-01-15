@@ -75,12 +75,14 @@ function App() {
             ></Route>
           </div>
         <div>
+        <div className="dropdown">
         <Link to="/cart">
               Cart
               {cartItems.length > 0 && (
                 <span className="badge">{cartItems.length}</span>
               )}
             </Link>
+            </div>
             {userInfo ? (
               <div className="dropdown">
                 <Link to="#">
