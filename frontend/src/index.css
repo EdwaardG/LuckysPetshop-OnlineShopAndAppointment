@@ -294,6 +294,7 @@ img.large{
   position: relative;
   padding: 8px;
 }
+
 .dropdown-content {
 
   position: absolute;
@@ -372,4 +373,29 @@ img.large{
 }
 .active {
   font-weight: bold;
+}
+
+.btnAppointment {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: #72bcd4;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.btnAppointment {
+  background-color: #72bcd4; 
+  color: black; 
+  border: 2px solid white;
+}
+
+.btnAppointment:hover {
+  background-color: #8d553e;
+  color: white;
 }

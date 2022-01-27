@@ -1,8 +1,7 @@
 import React from 'react';
 import  '../styles/Footer.css';
 // import { Button } from './Button';
-import { Link, NavLink } from 'react-router-dom';
-
+import { Link } from 'react-router-dom';
 
 
 function Footer() {
@@ -20,7 +19,7 @@ function Footer() {
             <h5>Useful Links</h5>
             <Link to='/'>Home</Link>
             <Link to='/aboutus'>About Us</Link>
-            <Link to='/services'>Services</Link>
+            <Link to='/appointmentscreen'>Services</Link>
           </div>
           <div className='footer-link-items'>
             <h5>General</h5>

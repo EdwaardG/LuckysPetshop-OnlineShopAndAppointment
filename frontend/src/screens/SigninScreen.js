@@ -70,6 +70,9 @@ export default function SigninScreen(props) {
               Create your account
             </Link>
           </div>
+          <div>
+          Forget Password? Click Here
+          </div>
         </div>
       </form>
     </div>

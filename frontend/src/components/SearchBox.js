@@ -12,6 +12,7 @@ export default function SearchBox(props) {
         <input
           type="text"
           name="q"
+          placeholder="Search Products"
           id="q"
           onChange={(e) => setName(e.target.value)}
         ></input>

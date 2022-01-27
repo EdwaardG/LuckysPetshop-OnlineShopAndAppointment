@@ -27,6 +27,11 @@ import { listProductCategories } from './actions/productActions';
 import LoadingBox from './components/LoadingBox';
 import MessageBox from './components/MessageBox';
 import Footer from './screens/Footer';
+import AboutScreen from './screens/AboutScreen';
+import AppointmentScreen from './screens/AppointmentScreen';
+import DogGroomDetailsScreen from './screens/DogGroomDetailsScreen';
+import DogSpaDetailsScreen from './screens/DogSpaDetailsScreen';
+import DogBathDetailsScreen from './screens/DogBathDetailsScreen';
 
 function App() {
 
@@ -75,6 +80,18 @@ function App() {
             ></Route>
           </div>
         <div>
+
+
+        <div className="dropdown">
+        <Link to="/appointmentscreen">
+              Book Your Appointment
+            </Link>
+            </div>
+
+            <div className="dropdown">
+              |
+            </div>
+
         <div className="dropdown">
         <Link to="/cart">
               Cart
@@ -83,6 +100,11 @@ function App() {
               )}
             </Link>
             </div>
+
+            <div className="dropdown">
+              |
+            </div>
+
             {userInfo ? (
               <div className="dropdown">
                 <Link to="#">
@@ -188,6 +210,11 @@ function App() {
     <Route path="/placeorder" component ={PlaceOrderScreen}></Route>
     <Route path="/order/:id" component={OrderScreen}></Route>
     <Route path="/orderhistory" component={OrderHistoryScreen}></Route>
+    <Route path="/aboutus" component={AboutScreen}></Route>
+    <Route path="/appointmentscreen" component={AppointmentScreen}></Route>
+    <Route path="/dogfullgroomdetails" component={DogGroomDetailsScreen}></Route>
+    <Route path="/dogspabathdetails" component={DogSpaDetailsScreen}></Route>
+    <Route path="/dogbathdetails" component={DogBathDetailsScreen}></Route>
     <Route
             path="/search/name/:name?"
             component={SearchScreen}
