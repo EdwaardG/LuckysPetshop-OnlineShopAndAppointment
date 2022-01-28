@@ -26,6 +26,7 @@ import SearchScreen from './screens/SearchScreen';
 import { listProductCategories } from './actions/productActions';
 import LoadingBox from './components/LoadingBox';
 import MessageBox from './components/MessageBox';
+import DashboardScreen from './screens/DashboardScreen';
 import Footer from './screens/Footer';
 import AboutScreen from './screens/AboutScreen';
 import AppointmentScreen from './screens/AppointmentScreen';
@@ -81,7 +82,6 @@ function App() {
           </div>
         <div>
 
-
         <div className="dropdown">
         <Link to="/appointmentscreen">
               Book Your Appointment
@@ -105,6 +105,13 @@ function App() {
               |
             </div>
 
+            <div className="dropdown"><Link to="/aboutus">About Us</Link></div>
+
+            <div className="dropdown">
+                |
+            </div>
+
+
             {userInfo ? (
               <div className="dropdown">
                 <Link to="#">
@@ -125,7 +132,7 @@ function App() {
                 </ul>
               </div>
             ) : (
-              <Link to="/signin">Sign In</Link>
+              <div className="dropdown"><Link to="/signin">Sign In</Link></div>
             )}
              {userInfo && userInfo.isSeller && (
               <div className="dropdown">
@@ -254,6 +261,12 @@ function App() {
             path="/user/:id/edit"
             component={UserEditScreen}
           ></AdminRoute>
+
+          <AdminRoute
+            path="/dashboard"
+            component={DashboardScreen}
+          ></AdminRoute>
+
           <SellerRoute
             path="/productlist/seller"
             component={ProductListScreen}
