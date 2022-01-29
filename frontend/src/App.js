@@ -33,6 +33,7 @@ import AppointmentScreen from './screens/AppointmentScreen';
 import DogGroomDetailsScreen from './screens/DogGroomDetailsScreen';
 import DogSpaDetailsScreen from './screens/DogSpaDetailsScreen';
 import DogBathDetailsScreen from './screens/DogBathDetailsScreen';
+import Carousel from './components/CarouselSample';
 
 function App() {
 
@@ -122,7 +123,7 @@ function App() {
                     <Link to="/profile">User Profile</Link>
                   </li>
                 <li>
-                    <Link to="/orderhistory">Order History</Link>
+                    <Link to="/orderhistory">My Orders</Link>
                   </li>
                   <li>
                     <Link to="#signout" onClick={signoutHandler}>
@@ -222,6 +223,9 @@ function App() {
     <Route path="/dogfullgroomdetails" component={DogGroomDetailsScreen}></Route>
     <Route path="/dogspabathdetails" component={DogSpaDetailsScreen}></Route>
     <Route path="/dogbathdetails" component={DogBathDetailsScreen}></Route>
+    <Route path="/carouselsample" component={Carousel}></Route>
+
+
     <Route
             path="/search/name/:name?"
             component={SearchScreen}

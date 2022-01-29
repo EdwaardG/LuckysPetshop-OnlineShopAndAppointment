@@ -96,7 +96,7 @@ export default function OrderScreen(props) {
                     Delivered at {order.deliveredAt}
                   </MessageBox>
                 ) : (
-                  <MessageBox variant="danger">Not Delivered</MessageBox>
+                  <MessageBox variant="danger">Pending</MessageBox>
                 )}
               </div>
             </li>
@@ -164,12 +164,7 @@ export default function OrderScreen(props) {
                   <div>₱{order.shippingPrice.toFixed(2)}</div>
                 </div>
               </li>
-              <li>
-                <div className="row">
-                  <div>Tax</div>
-                  <div>₱{order.taxPrice.toFixed(2)}</div>
-                </div>
-              </li>
+              
               <li>
                 <div className="row">
                   <div>
@@ -217,6 +212,9 @@ export default function OrderScreen(props) {
             </ul>
           </div>
         </div>
+
+        
+        
       </div>
     </div>
   );

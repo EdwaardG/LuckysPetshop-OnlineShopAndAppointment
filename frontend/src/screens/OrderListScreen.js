@@ -42,11 +42,10 @@ export default function OrderListScreen(props) {
           <thead>
             <tr>
               <th>ID</th>
-              <th>USER</th>
-              <th>DATE</th>
-              <th>TOTAL</th>
-              <th>PAID</th>
-              <th>DELIVERED</th>
+              <th>USER </th>
+              <th>DATE ORDERED</th>
+              <th>PAID STATUS</th>
+              <th>DELIVERY STATUS</th>
               <th>ACTIONS</th>
             </tr>
           </thead>
@@ -56,12 +55,11 @@ export default function OrderListScreen(props) {
                 <td>{order._id}</td>
                 <td>{order.user.name}</td>
                 <td>{order.createdAt.substring(0, 10)}</td>
-                <td>{order.totalPrice.toFixed(2)}</td>
-                <td>{order.isPaid ? order.paidAt.substring(0, 10) : 'No'}</td>
+                <td>{order.isPaid ? (<MessageBox variant="success">{ order.paidAt.substring (0, 10) }</MessageBox>) : <MessageBox variant="danger">Not Paid</MessageBox>}</td>
                 <td>
                   {order.isDelivered
-                    ? order.deliveredAt.substring(0, 10)
-                    : 'No'}
+                    ? (<MessageBox variant="success">{ order.deliveredAt.substring(0, 10) }</MessageBox>)
+                    : <MessageBox variant="danger">Pending</MessageBox>}
                 </td>
                 <td>
                   <button

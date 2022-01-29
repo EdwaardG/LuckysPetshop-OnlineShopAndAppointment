@@ -163,7 +163,7 @@ export default function ProductEditScreen(props) {
               ></input>
             </div>
             <div>
-              <label htmlFor="countInStock">Count In Stock</label>
+              <label htmlFor="countInStock">Stock Level</label>
               <input
                 id="countInStock"
                 type="text"
