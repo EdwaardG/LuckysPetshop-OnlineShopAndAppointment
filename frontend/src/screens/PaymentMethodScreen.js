@@ -38,19 +38,6 @@ export default function PaymentMethodScreen(props){
                     </div>
             </div>
 
-            <div>
-                <div>
-                    <input type="radio" 
-                    id="stripe" 
-                    value="Gcash" 
-                    name="paymentMethod"
-                    required 
-                     
-                   onChange={(e) => setPaymentMethod(e.target.value)}
-                    ></input>
-                    <label htmlFor="stripe">GCash</label>
-                    </div>
-            </div>
 
             <div>
                 <div>

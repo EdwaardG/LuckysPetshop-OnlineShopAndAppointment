@@ -33,7 +33,9 @@ import AppointmentScreen from './screens/AppointmentScreen';
 import DogGroomDetailsScreen from './screens/DogGroomDetailsScreen';
 import DogSpaDetailsScreen from './screens/DogSpaDetailsScreen';
 import DogBathDetailsScreen from './screens/DogBathDetailsScreen';
+import TermsAndConditionScreen from './screens/TermsAndConditionsScreen';
 import Carousel from './components/CarouselSample';
+
 
 function App() {
 
@@ -224,6 +226,7 @@ function App() {
     <Route path="/dogspabathdetails" component={DogSpaDetailsScreen}></Route>
     <Route path="/dogbathdetails" component={DogBathDetailsScreen}></Route>
     <Route path="/carouselsample" component={Carousel}></Route>
+    <Route path="/TermsAndCondi" component={TermsAndConditionScreen}></Route>
 
 
     <Route

@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import  '../styles/StyleHome.css';
 
 import Product from  '../components/Product';
 import LoadingBox from '../components/LoadingBox';
@@ -16,6 +17,10 @@ export default function HomeScreen(){
   }, [dispatch,]);
     return(
       <div>
+
+    <img src="./images/LuckyPetshopBanner75.png" alt=""/>
+      <h1 className="RecommProd">Recommended Products</h1>
+
         {loading? ( 
         <LoadingBox></LoadingBox>
          ) : error? (
