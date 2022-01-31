@@ -7,7 +7,7 @@ return(
 <h1 className="aboutus-header">Terms and Conditions</h1>
 <p className="aboutus-companydesc">These Terms of Use constitute a legally binding agreement made between you, 
                                    whether personally or on behalf of an entity and Lucky Petshop, 
-                                   concerning your access to and use of the Luckypetshop.com website.</p><br/>
+                                   concerning your access to and use of the luckys-petshop.herokuapp.com website.</p><br/>
 <h1 className="aboutus-header">USER REPRESENTATIONS</h1>                                  
 <p className="aboutus-companydesc">By using the Site , you represent and warrant that: </p>
 <p className="aboutus-companydesc">(1) all registration information you submit will be true, accurate, current, and complete; </p>
@@ -22,16 +22,16 @@ return(
 <p className="aboutus-companydesc">We make every effort to display as accurately as possible the specifications, and details of the products available on the Site. However, we do not guarantee that the specifications and details of the products will be accurate, complete, reliable, current, or free of other errors, and your electronic display may not accurately reflect the actual specifications and details of the products.
  </p><br/>
 <p className="aboutus-companydesc">All products are subject to availability, and we cannot guarantee that items will be in stock. We reserve the right to discontinue any products at any time for any reason. Prices for all products are subject to change. </p><br/>
-<h1 className="aboutus-header">PURCHASES AND PAYMENT</h1> 
+<h1 className="aboutus-header">PURCHASES ANdD PAYMENT</h1> 
 <p className="aboutus-companydesc">We accept the following forms of payment: Paypal and Cash on Delivery . You agree to provide current, complete, and accurate purchase and account information for all purchases made via the Site. 
 You further agree to promptly update account and payment information, including email address and payment method, so that we can complete your transactions and contact you as needed. 
 Sales tax will be added to the price of purchases as deemed required by Philippines. We may change prices at any time. All payments shall be in Philippine peso. </p><br/>
 <p className="aboutus-companydesc">We reserve the right to refuse any order placed through the Site. We may, in our sole discretion, limit or cancel quantities purchased per person, per household, or per order. These restrictions may include orders placed by or under the same customer account, the same payment method, and/or orders that use the same billing or shipping address.
  We reserve the right to limit or prohibit orders that, in our sole judgment, appear to be placed by dealers, resellers, or distributors. </p><br/>
 <h1 className="aboutus-header">DELIVERY</h1> 
-<p className="aboutus-companydesc">We will use a courier service to deliver the Products to you. The carrier will contact you via phone call/SMS to agree on the best time to deliver your item(s).
-We will ship to street addresses within the Philippines. We cannot deliver on address outside the Philippines.
-Estimated delivery date is specified, within 1-2 days from the date of the Order Confirmation.  </p><br/>
+<p className="aboutus-companydesc">We will use a courier service to deliver the Products to you.
+We will ship to street addresses within Metro Manila. We cannot deliver on address outside the Philippines.
+Estimated delivery date is specified, within 1-7 days from the date of the Order Confirmation.  </p><br/>
 <p className="aboutus-companydesc">Delay in the delivery may be caused by the following: </p>
 <p className="aboutus-companydesc">•Unforeseen circumstances such as natural calamities and weather disruptions, accidents, civil disturbances, and other similar circumstances </p>
 <p className="aboutus-companydesc">•Shipping service interruptions

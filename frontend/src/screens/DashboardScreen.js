@@ -27,7 +27,7 @@ export default function DashboardScreen() {
             <li>
               <div className="summary-title color1">
                 <span>
-                  <i className="fa fa-users" /> Users
+                  <i className="fa fa-users" />Total Users
                 </span>
               </div>
               <div className="summary-body">{summary.users[0].numUsers}</div>
@@ -35,7 +35,7 @@ export default function DashboardScreen() {
             <li>
               <div className="summary-title color2">
                 <span>
-                  <i className="fa fa-shopping-cart" /> Orders
+                  <i className="fa fa-shopping-cart" /> Pending Orders
                 </span>
               </div>
               <div className="summary-body">
@@ -45,7 +45,7 @@ export default function DashboardScreen() {
             <li>
               <div className="summary-title color3">
                 <span>
-                  <i className="fa fa-money" /> Sales
+                  <i className="fa fa-money" /> Total Sales
                 </span>
               </div>
               <div className="summary-body">

@@ -28,7 +28,7 @@ return(
         <br/><br/>
     <img className="aboutus-img" src="./images/roundedPhilip.png" alt=""/>
     <h4><b>Jhon Philip F. Narra</b></h4>
-    <p>Developer</p>
+    <p>Documentator</p>
     <p>narra.136369@cubao.sti.edu.ph</p>
     </div>
   </div>

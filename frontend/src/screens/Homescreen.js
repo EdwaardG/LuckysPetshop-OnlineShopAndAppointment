@@ -18,7 +18,7 @@ export default function HomeScreen(){
     return(
       <div>
 
-    <img src="./images/LuckyPetshopBanner75.png" alt=""/>
+    <img src="./images/LuckyPetshopBanner2.png" alt=""/>
       <h1 className="RecommProd">Recommended Products</h1>
 
         {loading? ( 
